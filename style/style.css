@@ -2,7 +2,7 @@
     font-family: 'Open Sans';
 }
 
-.btn{
+.btn {
     height: 64px;
     font-weight: 700;
     font-size: 20px;
@@ -11,7 +11,6 @@
     border-radius: 5px;
     border: 0;
     color: white;
-
 }
 
 /* header and nav style */
@@ -19,7 +18,7 @@ nav {
     display: flex;
 
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 nav ul {
@@ -42,4 +41,172 @@ nav li {
 
 .text-primary {
     color: #FD6E0A;
+}
+
+/* banner */
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+.banner {
+    text-align: center;
+    display: flex;
+
+
+}
+
+.artical {
+    margin: 0px 200px;
+}
+
+.sub {
+    color: #474747;
+    font-size: 25px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+.das {
+
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+}
+
+/* MAIN SECTION ABOUT STYLE */
+main {
+
+    max-width: 1140px;
+    margin: 0 auto;
+
+
+}
+
+section{
+    margin-top: 130px;
+    }
+
+.About {
+    
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.sec-title {
+    font-weight: 700;
+    font-size: 35px;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+.sec-des {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-des {
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* Skill container */
+
+
+.sec-title {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+
+.sec-des {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skilltitle {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+
+.resume{
+    text-align: center;
+    margin-bottom: 113px;
+}
+
+.ajaira{
+    display: flex;
+    gap: 24px;
+}
+
+.item{
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #474747;
+}
+
+.sub-item{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+.clg-des{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
 }
